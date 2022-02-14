@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/principalFragment">
+
+    <fragment
+        android:id="@+id/principalFragment"
+        android:name="com.example.myapplication.PrincipalFragment"
+        android:label="Tela Inicial"
+        tools:layout="@layout/fragment_inicio">
+    </fragment>
+
+    <fragment
+        android:id="@+id/respostaFragment"
+        android:name="com.example.myapplication.RespostaFragment"
+        android:label="Resposta"
+        tools:layout="@layout/fragment_resposta">
+    </fragment>
+
+</navigation>
